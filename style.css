@@ -1,0 +1,107 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b0f1a;
+  color:#fff;
+}
+
+.header{
+  padding:18px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.container{
+  padding:12px;
+  padding-bottom:80px;
+}
+
+.card{
+  background:#12182b;
+  padding:15px;
+  border-radius:14px;
+  margin-bottom:10px;
+}
+
+button{
+  border:none;
+  padding:12px;
+  border-radius:10px;
+  margin-top:8px;
+  background:#2ea3ff;
+  color:#fff;
+  width:100%;
+}
+
+.option{
+  background:#1a2238;
+  padding:12px;
+  border-radius:10px;
+  margin-top:8px;
+  cursor:pointer;
+}
+
+.option.selected{
+  border:2px solid #00c2ff;
+  background:#24325a;
+}
+
+.selectedAns{
+  border:2px solid #00c2ff;
+}
+
+.nav{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#11182b;
+  display:flex;
+  justify-content:space-around;
+  padding:10px 0;
+}
+
+.timer{
+  text-align:right;
+}
+
+.palette{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:5px;
+}
+
+.box{
+  background:#1a2238;
+  padding:8px;
+  text-align:center;
+  border-radius:6px;
+  font-size:12px;
+}
+
+.answered{
+  background:#24325a;
+}
+
+.marked{
+  border:2px dashed orange;
+}
+.subject {
+  padding: 15px;
+  margin: 8px 0;
+  background: #1e2a3a;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* WHEN SELECTED */
+.subject.active {
+  background: #2ea8ff;
+  color: #fff;
+  border: 2px solid #00c6ff;
+}
+
+/* OPTIONAL HOVER EFFECT */
+.subject:hover {
+  background: #2a3a4f;
+}
